@@ -8,8 +8,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ngeblog blog v2",
-  description: "Marilah ngeblog",
+  title: "fplpiksel",
+  description: "Gimana OR FPLmu minggu ini?",
   icons: {
     icon: [
       {
