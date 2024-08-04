@@ -34,7 +34,7 @@ export default function Home(props: any) {
   } = getAllPostAndPaging(props)
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <h1 className="mt-24 mb-6 font-bold text-3xl md:text-7xl z-50">Gimana <i>OR</i> FPLmu minggu ini?</h1>
+      <h1 className="mt-24 mb-6 font-bold text-3xl md:text-3xl z-50">Gimana <i>OR</i> FPLmu minggu ini?</h1>
       <p className="italic mb-6">Page {page}/{pages}</p>
       {posts.map((post: any) => (
         <AppHighlightContent className="w-11/12"
